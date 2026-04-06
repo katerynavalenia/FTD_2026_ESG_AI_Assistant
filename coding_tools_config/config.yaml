@@ -1,0 +1,11 @@
+name: Local Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: OpenGateLLM-Chat
+    provider: openai
+    model: Qwen/Qwen3-Coder-30B-A3B-Instruct
+    apiBase: https://albert.api.etalab.gouv.fr/v1
+    apiKey: PUT_ALBERT_KEY_HERE
+    roles:
+      - chat

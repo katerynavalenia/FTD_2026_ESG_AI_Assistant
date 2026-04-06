@@ -1,0 +1,29 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "provider": {
+        "litellm": {
+            "models": {
+                "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+                    "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct"
+                },
+                "openai/gpt-oss-120b": {
+                    "name": "openai/gpt-oss-120b"
+                }
+            },
+            "options": {
+                "apiKey": "PUT ALBERT KEY HERE",
+                "baseURL": "https://albert.api.etalab.gouv.fr/v1"
+            }
+        }
+    },
+    "mode": {
+        "build": {
+            "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+            "tools": {
+                "write": true,
+                "edit": true,
+                "bash": false
+            }
+        }
+    }
+}
