@@ -16,6 +16,27 @@ This guide outlines the steps students need to complete for the Albert API and R
    - Albert API key (set as `ALBERT_API_KEY` environment variable)
    - Albert API base URL (set as `ALBERT_BASE_URL` environment variable, defaults to `https://albert.api.etalab.gouv.fr/v1`)
 
+## Useful Links
+
+- **Class GitHub Repo**: [https://github.com/RamiELM/FTD_2026_ESG_AI_Assistant](https://github.com/RamiELM/FTD_2026_ESG_AI_Assistant)
+- **IDE**: [Visual Studio Code](https://code.visualstudio.com/download)
+- **Coding assistance**: [Continue Dev](https://docs.continue.dev/getting-started/overview)
+- **Vibe Coding**: [OpenCode.ai](https://opencode.ai/)
+- **Albert API**: 
+  - [API Documentation](https://albert.api.etalab.gouv.fr)
+  - [Incubateur Documentation](https://doc.incubateur.net/alliance/albert-api/prise-en-main)
+- **RAG Frameworks**:
+  - [LangChain](https://www.langchain.com/)
+  - [LlamaIndex](https://www.llamaindex.ai/)
+- **Sample Dataset**: [S&P 500 ESG Reports on Kaggle](https://www.kaggle.com/datasets/jaidityachopra/esg-sustainability-reports-of-s-and-p-500-companies)
+- **WebUI Tools**:
+  - [Streamlit](https://streamlit.io/)
+  - [Gradio](https://www.gradio.app/)
+  - [Open WebUI](https://openwebui.com/)
+- **RAG Evaluation**:
+  - [Ragas Documentation](https://docs.ragas.io/en/stable/)
+  - [DeepEval GitHub](https://github.com/confident-ai/deepeval)
+
 ## Step-by-Step Workflow
 
 ### 1. Test Albert API Connection
