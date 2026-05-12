@@ -18,8 +18,6 @@ from PIL import Image, ImageDraw
 ALBERT_BASE_URL = "https://albert.api.etalab.gouv.fr/v1"
 ALBERT_EMBED_MODEL = "BAAI/bge-m3"
 
-CHROMA_PATH = ".chroma"
-CHROMA_COLLECTION = "albert_rag_chunks"
 SQLITE_PATH = ".rag_store.sqlite"
 SQLITE_TABLE = "chunks"
 SQLITE_PAGES_TABLE = "pages"
@@ -27,14 +25,6 @@ UPLOADS_DIR = ".rag_uploads"
 
 DEFAULT_CHUNK_SIZE = 1200  # chars
 DEFAULT_CHUNK_OVERLAP = 200  # chars
-
-try:
-    import chromadb  # type: ignore
-
-    CHROMA_AVAILABLE = True
-except Exception:
-    chromadb = None
-    CHROMA_AVAILABLE = False
 
 
 def build_client(api_key: str) -> OpenAI:
@@ -108,14 +98,6 @@ def chunk_pages(
             start = max(0, end - chunk_overlap)
     return chunks
 
-
-def get_chroma_collection() -> Any:
-    if not CHROMA_AVAILABLE:
-        raise RuntimeError("ChromaDB not available in this environment")
-    client = chromadb.PersistentClient(path=CHROMA_PATH)  # type: ignore[union-attr]
-    return client.get_or_create_collection(name=CHROMA_COLLECTION, metadata={"hnsw:space": "cosine"})
-
-
 def _sqlite_connect() -> sqlite3.Connection:
     con = sqlite3.connect(SQLITE_PATH)
     con.execute(
@@ -184,7 +166,7 @@ def embed_texts(api_key: str, texts: list[str]) -> list[list[float]]:
     return out
 
 
-def ingest_pdf_to_chroma(
+def ingest_pdf(
     *,
     api_key: str,
     filename: str,
@@ -238,20 +220,17 @@ def ingest_pdf_to_chroma(
             }
         )
 
-    if CHROMA_AVAILABLE:
-        col = get_chroma_collection()
-        col.upsert(ids=ids, documents=texts, embeddings=embeddings, metadatas=metadatas)
-    else:
-        con = _sqlite_connect()
-        with con:
-            con.executemany(
-                f"INSERT OR REPLACE INTO {SQLITE_TABLE}(id, document, metadata, embedding) VALUES (?, ?, ?, ?)",
-                [
-                    (i, doc, json.dumps(meta, ensure_ascii=False), json.dumps(emb, ensure_ascii=False))
-                    for i, doc, meta, emb in zip(ids, texts, metadatas, embeddings)
-                ],
-            )
-        con.close()
+
+    con = _sqlite_connect()
+    with con:
+        con.executemany(
+            f"INSERT OR REPLACE INTO {SQLITE_TABLE}(id, document, metadata, embedding) VALUES (?, ?, ?, ?)",
+            [
+                (i, doc, json.dumps(meta, ensure_ascii=False), json.dumps(emb, ensure_ascii=False))
+                for i, doc, meta, emb in zip(ids, texts, metadatas, embeddings)
+            ],
+        )
+    con.close()
 
     return {
         "file_hash": file_hash,
@@ -265,14 +244,6 @@ def ingest_pdf_to_chroma(
 
 def rag_retrieve(api_key: str, query: str, *, k: int = 5) -> list[dict[str, Any]]:
     q_emb = embed_texts(api_key, [query])[0]
-    if CHROMA_AVAILABLE:
-        col = get_chroma_collection()
-        res = col.query(query_embeddings=[q_emb], n_results=k, include=["documents", "metadatas", "distances"])
-        docs = (res.get("documents") or [[]])[0]
-        metas = (res.get("metadatas") or [[]])[0]
-        dists = (res.get("distances") or [[]])[0]
-        return [{"text": doc, "metadata": meta, "distance": dist} for doc, meta, dist in zip(docs, metas, dists)]
-
     con = _sqlite_connect()
     cur = con.execute(f"SELECT id, document, metadata, embedding FROM {SQLITE_TABLE}")
     rows = cur.fetchall()
@@ -466,7 +437,7 @@ def main() -> None:
             height=100,
         )
 
-        use_rag = st.toggle("Use RAG (local ChromaDB)", value=True)
+        use_rag = st.toggle("Use RAG", value=True)
         with st.expander("RAG settings", expanded=False):
             chunk_size = st.number_input(
                 "Chunk size (chars)", min_value=300, max_value=4000, value=DEFAULT_CHUNK_SIZE, step=100
@@ -479,7 +450,7 @@ def main() -> None:
                 step=50,
             )
             top_k = st.number_input("Top-K chunks", min_value=1, max_value=20, value=5, step=1)
-            backend = "ChromaDB" if CHROMA_AVAILABLE else "SQLite (fallback)"
+            backend = "SQLite (fallback)"
             st.caption(f"Vector store backend: **{backend}**")
 
         if st.button("Clear chat", type="secondary", use_container_width=True):
@@ -514,7 +485,7 @@ def main() -> None:
                 f"Indexed `{last_ingest['upserted']}` chunks from `{last_ingest.get('source')}` (pages={last_ingest['pages']}).{note}"
             )
         else:
-            st.caption("Upload a PDF to index it locally (ChromaDB).")
+            st.caption("Upload a PDF to index it locally.")
 
     if uploaded is not None:
         file_bytes = uploaded.getvalue()
@@ -522,7 +493,7 @@ def main() -> None:
         already = st.session_state.get("ingested_hashes", set())
         if file_hash not in already:
             with st.spinner("Indexing PDF (extract → chunk → embed → store)…"):
-                info = ingest_pdf_to_chroma(
+                info = ingest_pdf(
                     api_key=api_key,
                     filename=uploaded.name,
                     file_bytes=file_bytes,
