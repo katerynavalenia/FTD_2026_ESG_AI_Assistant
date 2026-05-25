@@ -433,7 +433,7 @@ def main() -> None:
 
         system_prompt = st.text_area(
             "System prompt",
-            value="Tu réponds en français, de façon concise.",
+            value="You answer concisely.",
             height=100,
         )
 
@@ -532,9 +532,9 @@ def main() -> None:
     if rag_context:
         sys = (
             f"{system_prompt}\n\n"
-            "Tu peux utiliser le contexte ci-dessous si pertinent. Si le contexte ne contient pas l'information, "
-            "dis-le clairement.\n\n"
-            f"Contexte:\n{rag_context}"
+            "Use the context below if relevant. If the context does not contain the information, "
+            "say so clearly.\n\n"
+            f"Context:\n{rag_context}"
         )
 
     messages_for_api = [{"role": "system", "content": sys}] + list(st.session_state.messages)

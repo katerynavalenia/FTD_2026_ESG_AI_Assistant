@@ -38,7 +38,7 @@ def main():
         response = client.chat.completions.create(
             model=model,
             messages=[
-                {"role": "system", "content": "Tu réponds en français, de façon concise."},
+                {"role": "system", "content": "You answer concisely."},
                 {"role": "user", "content": "Explique ce qu’est une API compatible OpenAI en deux phrases."}
             ],
             stream=False
