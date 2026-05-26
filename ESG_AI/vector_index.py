@@ -15,12 +15,13 @@ import numpy as np
 import requests
 from sklearn.feature_extraction.text import HashingVectorizer
 
+_HERE = Path(__file__).parent.resolve()
 
 DEFAULT_ALBERT_BASE_URL = "https://albert.api.etalab.gouv.fr/v1"
 DEFAULT_API_MODEL = "BAAI/bge-m3"
 
 
-def load_dotenv(path: Path = Path(".env")) -> None:
+def load_dotenv(path: Path = _HERE / ".env") -> None:
     if not path.exists():
         return
     for raw_line in path.read_text(encoding="utf-8").splitlines():
@@ -274,8 +275,8 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     build = subparsers.add_parser("build", help="Embed chunks and build a FAISS index.")
-    build.add_argument("--chunks-path", type=Path, default=Path("data/chunks/all_chunks.jsonl"))
-    build.add_argument("--index-dir", type=Path, default=Path("data/vector_index_api"))
+    build.add_argument("--chunks-path", type=Path, default=_HERE / "data/chunks/all_chunks.jsonl")
+    build.add_argument("--index-dir", type=Path, default=_HERE / "data/vector_index_api")
     build.add_argument("--provider", choices=("api", "hash"), default="api")
     build.add_argument("--model", default=os.getenv("EMBEDDING_MODEL") or DEFAULT_API_MODEL)
     build.add_argument("--base-url", default=os.getenv("EMBEDDING_API_BASE_URL") or os.getenv("ALBERT_API_BASE_URL") or DEFAULT_ALBERT_BASE_URL)
@@ -290,7 +291,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     search = subparsers.add_parser("search", help="Query an existing FAISS index.")
     search.add_argument("question")
-    search.add_argument("--index-dir", type=Path, default=Path("data/vector_index_api"))
+    search.add_argument("--index-dir", type=Path, default=_HERE / "data/vector_index_api")
     search.add_argument("--provider", choices=("api", "hash"), default="")
     search.add_argument("--model", default="")
     search.add_argument("--base-url", default="")

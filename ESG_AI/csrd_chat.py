@@ -21,11 +21,12 @@ import faiss
 import numpy as np
 import requests
 
+_HERE = Path(__file__).parent.resolve()
 
 DEFAULT_ALBERT_BASE_URL = "https://albert.api.etalab.gouv.fr/v1"
 DEFAULT_EMBEDDING_MODEL = "BAAI/bge-m3"
 DEFAULT_CHAT_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
-DEFAULT_INDEX_DIR = Path("data/vector_index_api")
+DEFAULT_INDEX_DIR = _HERE / "data/vector_index_api"
 DEFAULT_TOP_K = 6
 
 SYSTEM_PROMPT = (
@@ -43,7 +44,7 @@ SYSTEM_PROMPT = (
 )
 
 
-def load_dotenv(path: Path = Path(".env")) -> None:
+def load_dotenv(path: Path = _HERE / ".env") -> None:
     if not path.exists():
         return
     for raw_line in path.read_text(encoding="utf-8").splitlines():

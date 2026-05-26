@@ -12,8 +12,10 @@ import os
 import sys
 from pathlib import Path
 
+_HERE = Path(__file__).parent.resolve()
 
-def load_dotenv(path: Path = Path(".env")) -> None:
+
+def load_dotenv(path: Path = _HERE / ".env") -> None:
     if not path.exists():
         return
     for raw_line in path.read_text(encoding="utf-8").splitlines():

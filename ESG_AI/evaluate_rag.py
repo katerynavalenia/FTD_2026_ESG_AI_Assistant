@@ -26,6 +26,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+_HERE = Path(__file__).parent.resolve()
+
 from csrd_chat import (
     AlbertClient,
     DEFAULT_ALBERT_BASE_URL,
@@ -38,9 +40,9 @@ from csrd_chat import (
     resolve_api_key,
 )
 
-DEFAULT_GROUND_TRUTH = Path("rag_evaluation_dataset.csv")
+DEFAULT_GROUND_TRUTH = _HERE / "rag_evaluation_dataset.csv"
 
-DEFAULT_OUTPUT = Path("data/evaluation/rag_eval_results.csv")
+DEFAULT_OUTPUT = _HERE / "data/evaluation/rag_eval_results.csv"
 
 BUILTIN_QUESTIONS: list[str] = [
     "What are the GHG emissions reduction targets (Scope 1, 2, and 3)?",
