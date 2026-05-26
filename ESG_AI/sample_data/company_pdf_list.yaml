@@ -1,0 +1,21 @@
+TARGET_COMPANIES:
+  - name: TotalEnergies
+    pdf_url: https://www.totalenergies.com/system/files/documents/totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf
+  - name: BNP Paribas
+    pdf_url: https://cdn-group.bnpparibas.com/uploads/file/bnp_paribas_integrated_report_2024_en_bd_1.pdf
+  - name: Airbus
+    pdf_url: https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04/2025_Airbus_Pioneering_sustainable_aerospace_publication.pdf
+  - name: Danone
+    pdf_url: https://www.danone.com/content/dam/corp/global/danonecom/investors/en-all-publications/2025/registrationdocuments/urd2024accessibleversion.pdf
+  - name: Engie
+    pdf_url: https://www.engie.com/sites/default/files/assets/documents/2025-04/20250416%20-Engie%20-2024%20ESG%20at%20ENGIE.pdf
+  - name: Schneider Electric
+    pdf_url: https://www.se.com/ww/en/assets/564/document/527425/schneider-sustainability-impact-q3-2025-results.pdf
+  - name: L'Oreal
+    pdf_url: https://www.loreal-finance.com/system/files/2025-03/2024_Universal_Registration_Document_LOREAL.pdf
+  - name: Volkswagen
+    pdf_url: https://annualreport2024.volkswagen-group.com/_assets/downloads/esrs-sustainability-report-vw-ar24.pdf
+  - name: Siemens
+    pdf_url: https://assets.new.siemens.com/siemens/assets/api/uuid:dea0c623-1ae9-4ef0-a69a-31d8eb7b39fb/sustainability-statement.pdf
+  - name: Iberdrola
+    pdf_url: https://www.iberdrola.com/documents/20125/42388/IB_Sustainability_Report.pdf

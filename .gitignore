@@ -200,10 +200,11 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Marimo
+.DS_Store
 marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-.rag_store.sqlite/
-.reag_uploads/
+.rag_store.sqlite
+.rag_uploads/
+AGENTS.md

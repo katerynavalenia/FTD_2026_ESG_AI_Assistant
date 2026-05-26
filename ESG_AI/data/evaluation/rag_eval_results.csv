@@ -1,0 +1,237 @@
+timestamp,company_filter,question,answer,source_count,citations,top_score,source_companies,faithfulness,context_precision,context_recall
+2026-05-25T23:31:36.042654+00:00,TotalEnergies,"What are the GHG emissions reduction targets (Scope 1, 2, and 3)?","Based on the provided excerpts, here are the GHG emissions reduction targets for TotalEnergies:
+
+**Scope 1+2:**
+- Reduce GHG emissions from operated facilities from 46 Mt CO2e in 2015 to less than 37 Mt CO2e by 2025.
+- By 2030, reduce by 40% net Scope 1+2 GHG emissions relative to 2015 for operated activities, bringing them to between 25 and 30 Mt CO2e [1][2][5].
+- Within Scope 1, reduce direct methane emissions by 60% between 2020 and 2025, and by 80% between 2020 and 2030 on the Company's operated facilities [1][2].
+
+**Scope 3:**
+- Maintain Scope 3 GHG emissions below 400 Mt CO2e by 2025 and 2030 [1][3][5].
+
+**Carbon Intensity:**
+- Reduce the lifecycle carbon intensity of the energy products sold by more than 25% compared to 2015. By 2025, the target reduction is at least 17% (Scope 1+2+3) [1][3].
+
+The indexed reports do not contain sufficient information to provide specific targets for Scope 1 or Scope 2 alone.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 331 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 331 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 331-332 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 108-109 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 331 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 26-27,0.6875,TotalEnergies,,,
+2026-05-25T23:31:40.137561+00:00,TotalEnergies,What net-zero or carbon neutrality commitments have been made?,"Based on the provided excerpts, TotalEnergies has made the following net-zero and carbon neutrality commitments:
+
+1. **Carbon Neutrality for Operated Emissions**: TotalEnergies aims to achieve carbon neutrality for its global operated emissions (Scope 1+2) by 2050 [1].
+
+2. **Net Zero for Scope 1+2 Operated Emissions**: As part of the Oil & Gas Decarbonization Charter (OGDC), TotalEnergies has committed to being Net Zero on Scope 1+2 operated emissions by 2050 [3].
+
+3. **Carbon Intensity Reduction**: TotalEnergies targets a 25% reduction in the life cycle carbon intensity (CI - Scope 1+2+3) of the energy products sold to its customers compared to 2015 by 2030 [1][5].
+
+4. **Methane Emissions Reduction**: TotalEnergies aims for an 80% reduction of its operated methane emissions by 2030 or sooner compared to 2020 [1].
+
+5. **Net Zero in Europe**: TotalEnergies has committed to net zero covering direct and indirect emissions (Scope 1+2+3) in Europe [5].
+
+These commitments are part of TotalEnergies' broader strategy to support the Paris Agreement's objectives and transition towards a lower carbon intensity energy mix [1][5][6].",6,TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 22 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 4-5 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 33 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 347-348 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 20-21 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 179-180,0.6125,TotalEnergies,,,
+2026-05-25T23:31:48.329399+00:00,TotalEnergies,How does the company address biodiversity and ecosystem risks?,"TotalEnergies addresses biodiversity and ecosystem risks through a structured approach outlined in its biodiversity ambition, which is aligned with the Global Biodiversity Framework (GBF) adopted at COP15 in 2022. The company's strategy focuses on four key axes:
+
+1. **Respecting Voluntary Exclusion Zones**:
+   - The company avoids conducting any oil or gas exploration or extraction activities in UNESCO World Natural Heritage areas and commits to not conducting any oil field exploration operations in Arctic sea ice areas [1][4].
+
+2. **Managing Biodiversity in New Projects**:
+   - For new projects, TotalEnergies identifies risks and impacts associated with biodiversity using financial thresholds specific to each activity. This identification process determines the modalities for implementing the Avoid - Reduce/Restore - Offset mitigation hierarchy and assesses the sensitivity of the project area in terms of biodiversity [1].
+   - The company commits to implementing a Biodiversity Action Plan (BAP) for each new site located in an area of interest for biodiversity, such as IUCN protected areas or Ramsar areas. For projects in IUCN category I or II protected areas or Ramsar areas, the company aims to produce a net positive impact on biodiversity, confirmed by a third-party institution [4][5][6].
+
+3. **Managing Biodiversity at Existing Sites**:
+   - TotalEnergies requires the definition of a Biodiversity Action Plan by 2025 and its deployment by 2030 for each material site for the environment in the operated perimeter. The company also commits to reporting on the implementation of these plans to stakeholders [4][6].
+   - When a site ceases operations, the company assesses the creation of biodiversity-rich areas as one of the options for site rehabilitation [4].
+
+4. **Promoting Biodiversity**:
+   - The company shares biodiversity data collected as part of its environmental studies with the scientific community and the public. This includes supporting awareness programs, youth education, and research actions concerning the ocean and coastal environments through the TotalEnergies Foundation's Climate, Coastal, and Oceans program [2][5].
+
+Additionally, TotalEnergies has set specific targets to manage biodiversity and ecosystem risks, including:
+- Zero net deforestation in new projects located in new sites approved from 2022 onwards [2][5].
+- Deployment of a BAP at 100% of material sites for the environment by 2025 and communication on the implementation of the plan to stakeholders over the period 2025-2030 [5].
+
+The company also aims to market products with the lowest possible ecotoxicity to mitigate biodiversity and ecosystems risks, replacing raw materials classified as hazardous or reformulating finished products [2].
+
+These commitments and targets meet the SMART criteria required by the Act4nature initiative, and the company has been publicly reporting on these commitments annually since the first quarter of 2021 [2].",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 346-347 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 347-348 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 345 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 347 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 347 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 162,0.6791,TotalEnergies,,,
+2026-05-25T23:31:52.937651+00:00,TotalEnergies,What water management targets or achievements are reported?,"Based on the provided excerpts, the following water management targets and achievements are reported by TotalEnergies:
+
+1. **Target**: Reduce overall freshwater withdrawals by 20% at sites located in water-stressed zones by 2030 compared to 2021 [1].
+   - **Achievement**: In 2023, the company reassessed priority sites using updated projections from the World Resources Institute’s Aqueduct tool, identifying 11 priority sites representing 46% of the Company’s total freshwater withdrawals (53Mm³ in 2025) [1].
+
+2. **Target**: Reduce drinking water consumption by 10% by 2030 at the Donges Platform, one of the fifty industrial sites identified as priorities by the French government’s Water Plan [1].
+
+3. **Achievement**: The Donges Platform is implementing a roadmap to reduce its drinking water consumption in line with national targets [1].
+
+4. **Achievement**: In Argentina and Bolivia, the E&P subsidiary supports local communities with water supply programs, including infrastructure improvements and sustainable water use education [1].
+
+5. **Achievement**: Freshwater withdrawals in water-stressed areas were reported as 53Mm³ in 2025 [1].
+
+6. **Achievement**: Freshwater consumption was reported as 62Mm³ in 2025 [1].
+
+These targets and achievements are part of TotalEnergies' efforts to preserve water resources and contribute to collective programs, such as the French government’s Water Plan [1].",6,TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 84-85 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 283 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 315-316 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 112 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 342 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 413-414,0.5681,TotalEnergies,,,
+2026-05-25T23:31:59.593631+00:00,TotalEnergies,Describe the circular economy initiatives and waste reduction targets.,"Based on the provided excerpts, here are the circular economy initiatives and waste reduction targets for TotalEnergies:
+
+1. **Circular Raw Materials Usage**:
+   - TotalEnergies aims to double the use of circular raw materials from 3.4 Mt in 2021 to 6.8 Mt by 2030 [1].
+   - In 2024, the company used 4.6 Mt of circular raw materials, representing a 33% increase compared to 2021 [4].
+
+2. **Circular Products Sales**:
+   - The company targets doubling its sales of circular products from $4.2 billion in 2021 to $8.4 billion by 2030 [1][4].
+   - In 2024, sales of circular products were $4.0 billion, a 4% decrease compared to 2021 [4].
+
+3. **Specific Circular Economy Initiatives**:
+   - **Biogas**: Produced mainly from agricultural waste, with digestate used as an agricultural soil improver [2].
+   - **Biofuels and Sustainable Aviation Fuels (SAF)**: Produced from animal fats and used cooking oils [2][5].
+   - **Circular Polymers**: Includes mechanically and chemically recycled polymers, with a target to produce 1 Mt/year by 2030 [4][5].
+   - **Biopolymers**: Derived from vegetable oils and used cooking oils [2][5].
+
+4. **Waste Reduction**:
+   - **Waste Recovery**: TotalEnergies aims to increase its waste recovery rate. In 2024, the waste recovery rate in the 100% operated perimeter was 71% [2].
+   - **Waste Management**: The company tracks and reports waste management data annually, including quantities of waste used as raw materials and renewable raw materials [2].
+
+5. **Additional Targets**:
+   - Increase the share of circular raw materials in biofuels to more than 75% from 2024, achieving 98% in 2025 [5].
+   - Develop ecodesign solutions to reduce material use in packaging and enable recycling of plastic waste [5].
+
+These initiatives and targets demonstrate TotalEnergies' commitment to enhancing circularity and reducing waste within its operations.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 351 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 354-355 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 283 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 351-352 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 87 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 112,0.6279,TotalEnergies,,,
+2026-05-25T23:32:06.374015+00:00,TotalEnergies,What social commitments are made regarding the workforce?,"Based on the provided excerpts, TotalEnergies has made the following social commitments regarding its workforce:
+
+1. **Health and Safety**:
+   - Protecting employees' health and safety [2].
+   - Providing medical monitoring for employees exposed to occupational risks [1].
+   - Proposing regular health check-ups for employees [1].
+   - Deploying a global policy for the prevention of psychosocial risks [1].
+
+2. **Social Protection**:
+   - Ensuring all employees receive direct remuneration at least equal to the living wage of their country or region [1][6].
+   - Setting up health insurance plans where appropriate [1].
+   - Establishing a death benefit plan equivalent to at least two years' gross reference salary [1].
+
+3. **Family Sphere**:
+   - Guaranteeing a minimum of 14 weeks of childcare leave for the first parent and 2 weeks for the second parent with 100% retention of basic salary [1][4][5].
+   - Neutralizing absences for childcare leave by granting the first parent an increase equal to the average of individual increases over the last three years [1][5].
+   - Offering personal leave for family events and other personal projects [5].
+
+4. **Working Environment and Ways of Working**:
+   - Promoting flexible, modern, and attractive work organization while preserving collective efficiency in a safe working environment [1].
+   - Generalizing the use of flexible working hours and trusting employees to manage remote working responsibly [1][5].
+   - Conducting information campaigns and awareness-raising initiatives on employee well-being and work-life balance [4][5].
+
+5. **Diversity and Inclusion**:
+   - Promoting a corporate culture that fosters equal treatment, opportunities, diversity, and excludes all forms of discrimination [2].
+   - Ensuring the diversity and internationalization of teams and preventing any form of discrimination [4].
+   - Committing to creating a more inclusive working environment for employees with disabilities [4].
+
+6. **Training and Development**:
+   - Developing people's skills using a robust learning model and individual support [2].
+   - Providing 4.6 training days per year per employee [6].
+   - Ensuring 98% of employees have followed at least one training course during the year [6].
+
+These commitments are part of TotalEnergies' broader social responsibility and sustainability efforts, aimed at ensuring high social standards and quality of life at work for all employees worldwide [2].",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 382-383 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 370-371 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 383-384 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 78-79 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 383 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 13,0.6132,TotalEnergies,,,
+2026-05-25T23:32:12.394038+00:00,TotalEnergies,How does the company support workers in its value chain?,"TotalEnergies supports workers in its value chain through several initiatives and mechanisms:
+
+1. **Dialogue and Awareness**: The company engages in dialogue with service station dealers through assessments and conventions to identify good practices and areas for improvement. Awareness-raising sessions on human rights are also held for these dealers [1][6].
+
+2. **Grievance Mechanisms**: Value chain workers have access to grievance mechanisms, including a global Ethics line (ethics@totalenergies.com) and other reporting channels managed by subsidiaries or third parties. The company ensures these mechanisms are effective, understandable, and accessible [1].
+
+3. **Human Rights Committees**: The M&S segment has a Human Rights Committee that ensures the proper deployment of the segment's human rights roadmap. Audits are carried out with the assistance of GoodCorporation, including interviews with service station dealers [4].
+
+4. **Supplier Audits and Action Plans**: The company assesses its priority suppliers through on-site audits, which include interviews with suppliers' employees. In case of deficiencies, suppliers must implement action plans monitored by TotalEnergies teams and verified by independent external service providers [6].
+
+5. **Worker's Voice Tool**: For projects like Tilenga and EACOP, TotalEnergies has deployed the ""Worker's Voice"" tool to monitor compliance with workers' rights. This system has improved working conditions and facilitated information feedback [3].
+
+6. **Industrial Relations Management System (IRMS)**: The IRMS is used to monitor working conditions and manage complaints. It has been supplemented by the ""Worker's Voice"" tool for specific projects [3].
+
+7. **Sustainable Procurement Program**: This target-based scheme aims to address material risks associated with workers in the value chain, targeting 1,300 priority suppliers [4].
+
+8. **Global Deal Initiative**: TotalEnergies is a member of the Global Deal initiative, which promotes effective dialogue with employees and aims to reconcile economic performance and social progress [6].
+
+These initiatives demonstrate TotalEnergies' commitment to supporting and protecting workers throughout its value chain.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 401 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 399-400 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 401-402 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 402 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 382-383 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 401,0.6037,TotalEnergies,,,
+2026-05-25T23:32:18.239385+00:00,TotalEnergies,What governance structures oversee sustainability and ESG topics?,"Based on the provided excerpts, the governance structures overseeing sustainability and ESG topics at TotalEnergies include:
+
+1. **Board of Directors**: Committed to placing sustainable development at the heart of the company's strategy, projects, and operations. It oversees the transition strategy to transform the company into an integrated multi-energy company [6].
+
+2. **Executive Committee**: Ensures that climate-related issues are taken into account and built into operational roadmaps. It is responsible for identifying and analyzing risks that could affect the achievement of TotalEnergies' objectives [4].
+
+3. **Strategy & Sustainability Committee**: Examines the company’s overall strategy, including matters relating to social and environmental responsibility. It reviews the incorporation of climate challenges in the company’s strategy and assesses the competitive environment and main challenges, including those related to social and environmental responsibility [2].
+
+4. **Risk Committee (Corisk)**: Chaired by the President Strategy & Sustainability, this committee reviews projects beforehand, verifying the analysis of various associated risks, including sustainability-related risks [2], [4].
+
+5. **Audit Committee**: Reviews the work involved in conducting the double materiality analysis and all the material impacts, risks, and opportunities identified in this context. The conclusions of this work are reported to the Board of Directors [2].
+
+6. **Governance and Ethics Committee**: Supervises and monitors the implementation of the company’s approach regarding ethics, compliance, and the prevention and detection of corruption. It ensures that the necessary procedures are in place, including those for updating the company’s Code of Conduct [4].
+
+7. **Compensation Committee**: Proposes compensation structures that take into account the company's strategic orientations, objectives and results, market practices as well as sustainability issues [4].
+
+8. **Strategy & Sustainability Division**: Coordinates the company's activities through the entities in charge of strategy and markets analysis, sustainability and climate, as well as safety, health and environment, legal affairs, relations with public authorities and internal audit [4].
+
+These structures ensure that sustainability and ESG topics are integrated into the company's governance and operational processes.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 310 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 280 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 318-319 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 280 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 318-319 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 277-278,0.588,TotalEnergies,,,
+2026-05-25T23:32:23.845738+00:00,TotalEnergies,What CSRD double materiality assessment has been conducted?,"Based on the provided excerpts, TotalEnergies conducted a double materiality assessment in 2024. Here are the key details:
+
+1. **Process and Involvement**:
+   - The assessment was formalized in 2024 with the involvement of various divisions, including Strategy & Sustainability (which includes Legal, Sustainability & Climate, Audit & Internal Control, Health, Safety and Environment), People & Social Engagement, and Finance [1].
+   - The work was examined by the Executive Committee and then reviewed by the Audit Committee [1].
+
+2. **Methodology**:
+   - The assessment identified risks and impacts for own activities and upstream and downstream value chains where relevant and possible [1].
+   - It relied on existing systems within the Company, including ongoing risk identification and mapping processes [1].
+   - The assessment considered both internal and external sources of analysis, such as the ESRS standards, GRI 11 Oil and Gas Sector 2021, SASB Oil and Gas standards, and IPIECA Sustainability Guide [2].
+
+3. **Criteria**:
+   - For impact materiality, the scoring took into account criteria such as the quality of impact (positive or negative), type of effect (actual or potential), severity of the impact, and external reference frameworks [2].
+   - For financial materiality, scoring was determined based on the potential magnitude of financial effects and the likelihood of occurrence [2].
+
+4. **Governance**:
+   - The Audit Committee reviewed the work involved in conducting the double materiality analysis, as well as all the material impacts, risks, and opportunities identified. The conclusions of this work were reported to the Board of Directors [4][5].
+
+5. **Disclosure**:
+   - The Company conducted its double materiality analysis based on the list of sustainability matters covered by the ESRS. The sustainability matters identified were assessed as material using the assessment process described [3].
+
+The indexed reports do not contain sufficient information to provide more specific details about the outcomes or the exact methodology used in the double materiality assessment.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 306-307 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 308 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 310 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 280 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 280 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 226,0.5226,TotalEnergies,,,
+2026-05-25T23:32:28.637921+00:00,TotalEnergies,What climate-related risks and opportunities are disclosed?,"Based on the provided excerpts, TotalEnergies discloses the following climate-related risks and opportunities:
+
+**Risks:**
+1. **Physical risks associated with climate change**, including:
+   - Acute risks: precipitation, flooding, drought, heat waves, cold, hail, strong winds, significant wave heights, and wildfires [2],[4].
+   - Chronic risks: temperature change, water stress, and sea-level rise [2],[4].
+   - For offshore sites, strong winds and wave heights are identified as the most severe hazards [4].
+
+2. **Transition risks linked to climate change**, including:
+   - Pace of the energy transition deployment and evolution of demand [2],[5].
+   - Risk of legal action and regulatory developments [2],[5].
+   - Financing of oil and gas reserves [2],[5].
+   - Operational risks related to the effects of climate change and extreme events [2],[5].
+
+**Opportunities:**
+1. **New low-carbon activities** as part of the energy transition [5].
+
+The company assesses these risks and opportunities using scenarios, including the high emissions scenario IPCC SSP5-8.5, as recommended by the European standard ESRS-E1 [1],[4]. The scenarios are used to evaluate the potential impacts of climate change on around 300 assets in its portfolio [1],[4].
+
+The indexed reports do not contain sufficient information to answer whether specific opportunities related to climate change are disclosed beyond new low-carbon activities.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 308 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 38-39 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 156-157 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 39 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 324-325 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 646-647,0.6394,TotalEnergies,,,
+2026-05-25T23:32:32.872880+00:00,TotalEnergies,What renewable energy targets or achievements are reported?,"Based on the provided excerpts, here are the renewable energy targets and achievements reported by TotalEnergies:
+
+1. **R&D Investment**:
+   - In 2024, 68% of TotalEnergies' R&D budget was devoted to new energies (renewable electricity, low-carbon molecules), batteries, and reducing environmental footprint [1].
+
+2. **Enabled Emissions Reductions**:
+   - TotalEnergies estimates that its renewable power generation enabled emissions reductions of around 18 Mt CO₂e in 2024 [2][4].
+   - By 2030, the enabled emissions reductions from renewable production could amount to around 60 Mt CO₂e [2][4].
+
+3. **Renewable Energy Capacity**:
+   - The company plans to add 1.7 GW of renewables in the United States by 2025 [3].
+   - TotalEnergies has signed contracts for 6 TWh/year of renewable energy for data centers by 2025 [3].
+
+4. **Strategic Priorities**:
+   - Electricity is highlighted as the Company's second strategic priority [3][5].
+
+5. **Integrated Power Model**:
+   - TotalEnergies has built an Integrated Power model, demonstrating its profitability in 2025 with a ROACE of 10% [5].
+
+These points reflect TotalEnergies' commitments and progress in the renewable energy sector as reported in the provided documents.",6,TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 185-186 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 330-331 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 4-5 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 27 | TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | page 5 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 5-6,0.6175,TotalEnergies,,,
+2026-05-25T23:32:37.995884+00:00,TotalEnergies,How does the company measure and disclose its supply chain emissions?,"The company measures and discloses its supply chain emissions primarily through Scope 3 GHG emissions, which are indirect emissions related to the direct use-phase emissions of sold products over their expected lifetime. This includes the Scope 1 and Scope 2 emissions of end users that occur from the combustion of fuels [5].
+
+The company follows the GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard Supplement and the oil & gas industry reporting guidelines published by IPIECA, which comply with the GHG Protocol methodologies. For the oil value chain, Scope 3 GHG emissions are calculated based on product sales (higher than production), and for the gas value chain, they are calculated based on marketable gas and condensates production (higher than gas sales) [5].
+
+The company does not report emissions associated with trading activities to avoid double counting. Biogenic CO2 emissions from the combustion or biodegradation of biomass (from sales of biofuels and biogas) are excluded from Scope 3 and disclosed separately [5].
+
+The company also extends its reporting perimeter to include companies and/or assets over which it exercises operational control, regardless of their financial consolidation method, for greenhouse gas emissions indicators as per ESRS E1-6 §44 to 46 and §50 [6].
+
+For the purpose of calculating Scope 3 emissions, the company considers the highest volume in the oil and gas value chains, i.e., the higher of the two production volumes or sales for end use. A stoichiometric emission factor (oxidation of molecules to carbon dioxide) is applied to these sales or production to obtain an emission volume [5].
+
+The company's Sustainability Report, prepared in accordance with the European Sustainability Reporting Standards (ESRS), includes these environmental indicators and is reviewed by the Audit Committee before being approved by the Board of Directors [6].",6,TotalEnergies | totalenergies_sustainability-climate-2026-progress-report_2026_en.pdf | pages 118-119 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 335 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 438 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 335 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | pages 665-666 | TotalEnergies | totalenergies_universal-registration-document-2024_2025_en.pdf | page 276,0.6599,TotalEnergies,,,

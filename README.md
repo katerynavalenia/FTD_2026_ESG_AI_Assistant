@@ -1,5 +1,19 @@
 # FTD_2026_ESG_AI_Assistant
 
+## Student Project: ESG AI Assistant
+
+A working RAG-powered ESG Q&A system built with the Albert API and FAISS.
+
+Check **[ESG_AI/](ESG_AI/)** for the full project — includes a Streamlit UI, CLI chatbot, scraper, evaluation pipeline, and documentation.
+
+**ESG_Agent/** contains the project presentation and demo materials.
+
+---
+
+*Below is the original course material from the instructor.*
+
+---
+
 # Albert API & RAG System - Student Class Workflow
 
 This guide outlines the steps students need to complete for the Albert API and RAG system class.

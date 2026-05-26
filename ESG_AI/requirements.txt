@@ -1,0 +1,24 @@
+# Core dependencies
+requests>=2.28
+numpy>=1.24
+faiss-cpu>=1.7
+scikit-learn>=1.2
+
+# PDF parsing
+pymupdf>=1.23           # imported as `fitz`
+
+# Web scraping
+beautifulsoup4>=4.12
+urllib3>=2.0
+
+# Streamlit UI
+streamlit>=1.30
+
+# Evaluation — YAML question file support
+pyyaml>=6.0
+
+# Evaluation — Ragas quality metrics (optional)
+# Install with: pip install ragas langchain-openai datasets
+# ragas>=0.2
+# langchain-openai>=0.1
+# datasets>=2.18

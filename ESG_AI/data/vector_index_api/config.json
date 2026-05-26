@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-05-25T07:18:01.481129+00:00",
+  "provider": "api",
+  "model": "BAAI/bge-m3",
+  "base_url": "https://albert.api.etalab.gouv.fr/v1",
+  "embedding_dim": 1024,
+  "similarity": "cosine_via_inner_product_on_normalized_vectors",
+  "chunk_count": 8794,
+  "chunks_path": "data\\chunks\\all_chunks.jsonl",
+  "min_tokens": 200,
+  "companies": []
+}
